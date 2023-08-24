@@ -84,4 +84,4 @@ Sleep tight, my dear friend. See you in the morning!
  The story is a heartwarming tale of friendship, compassion, and the magic of the natural world. The narrative transports young readers to a land where animals can talk and where the bond between a dragon and its human friend is one of pure love and adventure. Through its captivating portrayal of the characters and their journey to find the magical feather, the story resonates as a reminder that the simplest acts of kindness can create a world of wonder and joy.
 
 ## Contact
-If you have any questions, comments, or suggestions for the app, please feel free to contact me at [nirmal.works@outlook.com]
+If you have any questions, comments, or suggestions for the project, please feel free to contact me at [nirmal.works@outlook.com]
