@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Story Review Generation</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Story and Review Generation</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <link rel="icon" href="Related Images and Videos/favicon.ico" type="image/x-icon">
 
 <style type="text/css">
@@ -7561,7 +7561,9 @@ a.anchor-link {
 <li><p>Then randomly I went through an old twitter(now X) DM from a developer where he seem to have asked me to test his new library named <code>litellm</code> that he built. But, I haven't noticed it back then and now went through his repo and found that he used <code>Cohere</code> somewhere. That's when I tried my hands with the same, got API access and have luckily found it to be <code>integrated with Langchain</code> as well.</p>
 </li>
 </ul>
-<p>Also <strong>important thing to notice</strong> here is <strong>even with cohere's nightly models, I couldn't get reliable results</strong> for review generation though it was way better than other models that I have tried. Then I have gone through cohere website completely and found a way to build a <strong>custom model with cohere as base model.</strong> Then I <code>created custom jsonl dataset</code> with some <code>40 examples</code> of how the prompt would be and how the response should be using GPT 3.5 Turbo and used the same to fine-tune the custom model. That's what I have used below as cohere model. You can see that I have given a lengthy string for model parameter - <code>'a6cbb8d1-1bb6-415c-9543-c0484ee3a5b8-ft'</code></p>
+<p>Also <strong>important thing to notice</strong> here is <strong>even with cohere's nightly models, I couldn't get reliable results</strong> for review generation though it was way better than other models that I have tried. Then I have gone through cohere website completely and found a way to build a <strong>custom model with cohere as base model.</strong> Then I <code>created custom jsonl dataset</code> with some <code>40 examples</code> of how the prompt would be and how the response should be using GPT 3.5 Turbo and used the same to fine-tune the custom model. That's what I have used below as cohere model. You can see that I have given a lengthy string for model parameter - <code>'a6cbb8d1-1bb6-415c-9543-c0484ee3a5b8-ft'</code>.</p>
+<p>You can find a part of custom dataset below...</p>
+<img alt="Image" height="300" src="Related Images and Videos/dataset sample.png" width="500"/>
 </div>
 </div>
 </div>
