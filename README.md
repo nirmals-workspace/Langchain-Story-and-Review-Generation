@@ -11,7 +11,7 @@ Before you begin, you will need to have a few tools and libraries installed on y
 
 ## Workflow
 - Started with brainstorming ideas to implement the same. While we could have easily done it with some API calls from two different models, I preferred to leverage the power of Langchain to get consistent and reliable results in same tone with required no. of tokens.
-- Installed and Imported neccessary dependencies. Used only Lanchain and some in built libraries. But tried with few more libraries which I haven't shown in my notebook.
+- Installed and Imported neccessary dependencies. Used only Langchain and some in-built libraries. But tried with few more libraries which I haven't shown in my notebook.
 - Created two model instances one each for story and review generation. Here I happened to struggle a bit to establish the ideal second model for review generation. I will explain what I have gone through and how I handled the situation below.
 
     - After using `OpenAI model` for `story generation` which is `highly reliable` model with comparitively high input/output token limit, I **couldn't find any equally reliable model** for consistent and reliable output delivery **for review generation**.
