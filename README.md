@@ -1,7 +1,6 @@
 # Langchain Story and Review Generation
 
-## Aim
-Generate a story using any Large Language Model (LLM). Then devise a method through which the output of the first LLM, the story, can be fed as input to a second LLM, which in turn generates a review of the story as its output.
+This project aims to generate a story using any Large Language Model (LLM), then devise a method through which the output of the first LLM, the story, can be fed as input to a second LLM, which in turn generates a review of the story as its output.
 
 ## Prerequisites
 Before you begin, you will need to have a few tools and libraries installed on your machine:
